@@ -1,0 +1,90 @@
+body{
+ margin: 0;
+ padding: 0;
+}
+.parent,.header{
+    width: 80%;
+    margin: auto;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    gap: 700px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: hsl(233, 8%, 79%);
+}
+li{
+    list-style: none;
+}
+.first{
+   display: flex;
+ 
+    margin-bottom: 40px;
+}
+
+.upper1{
+    width: 80%;
+}
+.image{
+    width:97%;
+}
+.image img{
+    width: 100%;
+}
+
+.questions{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    width: 80%;
+}
+
+.paragraph{
+    height: auto;
+}
+button{
+    background-color: hsl(5, 85%, 63%);
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    border: none;
+}
+.upper2{
+    width: 30%;
+    padding: 25px;
+    background-color: hsl(240, 100%, 5%) ;
+      
+}
+h2{
+    color:  hsl(36, 100%, 99%);
+}
+p{
+    color:hsl(233, 8%, 79%)
+}
+
+.retro{
+    display: flex;
+    
+    flex-direction: row; 
+    gap: 8px;
+   
+    
+}
+
+.numbers{
+    color:hsl(5, 85%, 63%)
+    ;
+}
+.new{
+    color: hsl(35, 77%, 62%);
+}
